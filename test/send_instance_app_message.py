@@ -14,9 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from src import push_admin
+import push_admin
 import json
-from src.push_admin import messaging
+from push_admin import messaging
 
 android = messaging.AndroidConfig(
     collapse_key=-1,

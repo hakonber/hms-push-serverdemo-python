@@ -15,8 +15,8 @@
 # limitations under the License.
 
 import json
-from src import push_admin
-from src.push_admin import messaging
+import push_admin
+from push_admin import messaging
 
 web_push_headers = messaging.WebPushHeader(ttl="100")
 
