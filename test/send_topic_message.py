@@ -14,10 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from src.push_admin import initialize_app
+from push_admin import initialize_app, messaging
 import json
-from src.push_admin import messaging
-
 
 notification = messaging.Notification(
     title='sample title',

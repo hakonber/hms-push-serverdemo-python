@@ -17,8 +17,8 @@
 import urllib.parse
 import json
 import time
-from src.push_admin import _http
-from src.push_admin import _message_serializer
+from push_admin import _http
+from push_admin import _message_serializer
 
 
 class App(object):
